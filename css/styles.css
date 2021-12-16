@@ -107,13 +107,24 @@ a {
   font-size: 16px;
 }
 
+#heading {
+  padding-right: 10%;
+}
+@media only screen and (max-width: 767px) {
+  #heading {
+    padding-right: 0;
+  }
+}
+
 #video {
   width: 100%;
   max-width: 800px;
+  margin-left: 7%;
 }
 @media only screen and (max-width: 767px) {
   #video {
     margin-top: 10%;
+    margin-left: 0;
   }
 }
 
@@ -174,7 +185,7 @@ a {
 #footer {
   width: 100%;
   max-width: 800px;
-  margin: 1% auto 0;
+  margin: 7% auto 0;
 }
 #footer p {
   color: #3B474F;
